@@ -16,8 +16,12 @@ tableData.forEach((ufoReport) => {
 
 
 var inputField = d3.select("#filter-btn");
+//list of things to filter on....
 
 inputField.on("click", function(){
+
+//if/else statement 
+
     var inputBox = d3.select("#datetime");
     var inputValues = inputBox.property("value");
     //console.log(inputValues);
